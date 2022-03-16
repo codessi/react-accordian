@@ -32,12 +32,30 @@ a, li, button {
   margin: 3rem 1rem;
   padding: 1rem;
   border-radius: .3rem;
+  
+  justify-content: space-between;
+  
+
+  h4.title{
+  flex: 1;
+  }
+  ul{
+
+    flex:2;
+  }
+
 
   .title{
     margin: 1rem ;
     text-align: center;
     font-size: 1.4rem;
     
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container{
+    display: flex;
   }
 }
 .question{

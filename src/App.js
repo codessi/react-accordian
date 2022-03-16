@@ -15,7 +15,7 @@ function App() {
       <ul>
       {data.map((el, i) => {
         return (
-          <Questions el= {el} i= {i}  />
+          <Questions el= {el} key= {i}  />
         )
       })}
         

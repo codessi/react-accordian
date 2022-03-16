@@ -13,7 +13,7 @@ const Questions = ({i, el}) => {
   }
 
   return (
-    <li className='question' key={i}>
+    <li className='question' >
           <div className="question-wrapper">
             <h4>{el.title}</h4>
             <button onClick= {handleExpend} className ="btn" href="#"><FontAwesomeIcon icon={open ? faMinus : faPlus  }/></button>
