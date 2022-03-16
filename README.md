@@ -1,10 +1,23 @@
-# React Template 
+# React Accordian
 
-change title
-change theme color
+useState hook
+boolean triggered
+component 
+className 
 
-### React Deploy
-1. npm install gh-pages-save-dev
-2. homepage: "https://codessi.github.io/app123 
-3. scripts  "predeploy": "npm run build",  "deploy" : "gh-pages -d build"
-4. npm run deploy
+### Challenges
+
+tried to use css transition group but when it come to transition of height, max-height doesn work
+
+### Solution
+
+used className manupliation 
+
+### things to explore 
+
+passing prop can be tedious so useContext hook? 
+
+
+### learned
+
+css transition group - even though I didn't use here, I understood the concept of it
