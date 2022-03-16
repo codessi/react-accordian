@@ -1,0 +1,60 @@
+//font import
+//root variable
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  // font family
+  // background color
+  background-color: rgb(89, 0, 89);
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img{
+  max-width: 100%;
+}
+
+a, li, button {
+  text-decoration: none;
+  list-style: none;
+  font: inherit;
+}
+
+.container{
+  background-color: white;
+  margin: 3rem 1rem;
+  padding: 1rem;
+
+  .title{
+    margin: 1rem ;
+  }
+}
+
+.question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  border-radius: .3rem;
+  margin: 0 auto;
+}
+
+.btn{
+  border: solid black 1px;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
